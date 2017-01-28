@@ -1,0 +1,145 @@
+/* My Style Page */
+
+body {
+  background-color: #e6ffff;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+#menu-list {
+  margin-top: -20px;
+  border-bottom: 15px;
+  padding: 10px;
+  text-align: justify;
+  background-color: #ccff66;
+}
+
+#f{
+  text-align: justify;
+  padding: 20px;
+}
+#item-description{
+  padding: 0px;
+}
+.menu-item {
+  background-color: #ffff66;
+  width: 100%;
+  border: 1px solid;  
+  position: relative;
+  width: 100.5vw;
+  left: calc(-50vw + 50%);
+  margin-right: -15px;
+}
+
+.menu-item h3{
+  margin-top: 10px;
+  padding: 0px;
+  width: 100%;  
+}
+#btt a {
+ padding: 20px; 
+}
+
+/* Not XS screen */
+@media (min-width:768px){
+  .nav li {
+    visibility: hidden;
+  } 
+}
+
+/* XS screen */
+@media (max-width:767px){
+    .menu-item {
+    background-color: #ffff66;
+    width: 100%;
+    border: 1px solid;  
+    position: relative;
+    width: 101vw;
+    left: calc(-50vw + 50%);
+    margin-right: -15px;
+  }  
+}
+  
+#menu-li{
+    text-align:  center;
+    /*background-color: #ff99ff;*/
+    /*border-width: 2px;
+    padding: 15px;*/
+  }
+  .nav li{
+    text-align:  center;
+    background-color: #ff99ff;
+    border-width: 2px;
+    margin-top: 0px 0px;
+    /*font-color: #0066cc;*/
+    /*padding: -10px;*/    
+  }
+  
+  .nav li:nth-child(1) a {    
+    background: #ffff00; 
+  }
+  .nav li:nth-child(2) a {    
+    background: #ffcce0; 
+  }
+  .nav li:nth-child(3) a {    
+    background: #ccccff; 
+  }
+  
+  .navbar {
+    border-radius: 0px;
+    background-color: #b33c00;
+    margin-top : 0px;
+  }
+  .navbar-nav {
+    /*border-radius: 0px;
+    background-color:*/ /*#e6b3cc;*/
+    margin-top : 0px;
+    margin-bottom : 0px;
+  }
+  .navbar-header {
+    position: relative;
+    height: 80px;
+    
+  }
+  #brand h1{
+    margin-top: 5px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffffff; /*#0066cc;*/
+  }
+.navbar-toggle{
+  margin-top: 25px;
+}
+
+/* Super Extra Small Screen */
+@media (min-width:100px) and (max-width:300px){
+ 
+  #brand h1{
+    margin-top: 2px;
+    font-size: 1em;
+    color: #ffffff; /*#0066cc;*/
+  }
+  .navbar-toggle{
+    margin-top: 10px;
+    padding: 3px 4px;
+  }
+   .navbar-header {
+      position: relative;
+      height: 50px;
+    }
+    #menu-li{
+      text-align:  center;
+      font-size: 0.8em;
+  }
+  .menu-item {
+    background-color: #ffff66;
+    width: 100%;
+    border: 1px solid;  
+    position: relative;
+    width: 102vw;
+    left: calc(-50vw + 50%);
+    margin-right: -15px;
+  }
+}
